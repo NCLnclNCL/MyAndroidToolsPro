@@ -18,5 +18,12 @@ allprojects {
         mavenCentral()
         jcenter()
         maven { url 'https://dl.bintray.com/rikkaw/Shizuku/' }
+        maven { url 'https://jitpack.io' }  // For Shizuku
+        maven { url 'https://maven.aliyun.com/repository/public' }  // For Tencent libs (China mirror)
+        // OR try Tencent's official repo:
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+        maven { url 'https://maven.google.com' }
+        maven { url 'https://mvnrepository.com/' }
+
     }
 }

@@ -115,10 +115,11 @@ dependencies {
     implementation project(':core')
 
     implementation 'com.tencent.mars:mars-xlog:1.0.6'
-    implementation 'com.tencent.bugly:crashreport:2.8.6'
+    implementation 'com.tencent.bugly:crashreport:latest.release'
+//    implementation 'com.tencent.bugly:crashreport:latest.release'
 
-    implementation 'moe.shizuku.privilege:api-base:9'
-    implementation 'moe.shizuku.privilege:api-26:4'
+    implementation 'dev.rikka.shizuku:api:13.1.5'
+    implementation 'dev.rikka.shizuku:provider:13.1.5'
 
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
 // Because RxAndroid releases are few and far between, it is recommended you also
